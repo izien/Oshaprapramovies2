@@ -82,3 +82,33 @@ $(document).ready(function() {
         }        
     });
 });
+
+ 
+$(document).ready(function(){
+    $(".content");
+    $("button").click(()=>{
+        $("content").toggle();
+    })
+})
+/*about.html page - toggle icon*/
+	$("#toggle-support").click(function() {
+		event.preventDefault();
+		$('#menu-item').toggle();
+	});
+
+	$('#toggle-support').click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+	});
+
+});
+
+$("#toggle-support").click(function() {
+		event.preventDefault();
+		$('#menu-item').toggle();
+	});
+
+	$('#toggle-support').click(function(){
+		$(this).find('i').toggleClass('fa-plus').toggleClass('fa-minus');
+	});
+
+});

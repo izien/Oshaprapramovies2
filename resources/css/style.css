@@ -663,3 +663,70 @@ box-shadow: 0 7px 7px #fd9f1b;
 .bgimg {
     background-image: url(".../resources/img/home1.jpg");
 }
+
+.animation {
+-webkit-animation-name:bounce;
+-webkit-animation-duration: 160s;
+-webkit-animation-iteration-count: 50;
+-webkit-animation-direction: alternate;
+position: relative;
+left: 0px;
+}
+
+.hidden>div {
+	display:none;
+}
+
+.visible>div {
+	display:block;
+}
+
+.expandmore__button {
+  background: none;
+  font-size: inherit;
+  color: inherit;
+}
+/* optional */
+.expandmore__symbol:before {
+  content : '+ ';
+}
+.expandmore__button[aria-expanded=true] > .expandmore__symbol:before,
+.expandmore__button[data-expanded=true] > .expandmore__symbol:before {
+  content : '− ';
+}
+
+.js-to_expand[data-hidden=true] { display: none; }
+
+.expandmore__button {
+  background: none;
+  font-size: inherit;
+  color: inherit;
+}
+
+.expandmore__button[aria-expanded=false] > .expandmore__symbol:before,
+.expandmore__button[data-expanded=false] > .expandmore__symbol:before{
+  content : '+ ';
+}
+.expandmore__button[aria-expanded=true] > .expandmore__symbol:before,
+.expandmore__button[data-expanded=true] > .expandmore__symbol:before{
+  content : '− ';
+}
+
+.site-support {
+	margin-top: 1em;
+	padding: 2em;
+	border-radius: 0.3em;
+}
+
+#toggle-support {
+	float: right;
+	margin-top: -3.5em;
+	cursor: pointer;
+}
+
+.phone-us {
+	padding-top: 1em;
+}
+.email-us {
+	padding-top: .5em;
+}
