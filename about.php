@@ -18,17 +18,8 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="resources/js/bootstrap.bundle.js"></script>
-        <script src="resources/js/bootstrap.bundle.min.js"></script>
-        <script src="resources/js/bootstrap.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
+        <title>Oshaprapra Movies Hub</title>
         
-        <script type="text/javascript">
-$(document).ready(function(){
-     $("#myCarousel").carousel();
-});
-</script>
         <script type="text/javascript">
 function display_c(){
 var refresh=1000; // Refresh rate in milli seconds
@@ -43,10 +34,10 @@ tt=display_c();
 }
 </script> 
             
-        <title>Oshaprapra Movies Hub</title>
+        
     </head>
     <body onload=display_ct();>
-        <?php?>
+         <?php?>
         <header>
             <time datetime="2016-09-06" class="icon" style="position: absolute; top: 75px;
 left: 1075px">
@@ -66,83 +57,24 @@ left: 1075px">
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
-            
-             <div id="mycarousel" class="carousel slide" data-ride="carousel">
-             <div class="carousel-inner" role="listbox">
-                       <div class="carousel-item">
-                           <img class="d-block img-fluid" width="1400" height="250" src="resources/img/home1.jpg" alt="movie1">
-                           <div class="carousel-caption d-none d-md-block">            
-                           </div>
-                       </div>
-
-                       <div class="carousel-item">
-                         <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home2.jpg" alt="movie">
-                         <div class="carousel-caption d-none d-md-block">
-                       </div>
-                        </div>
-
-                       <div class="carousel-item">
-                         <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home10.jpg" alt="movie">
-                         <div class="carousel-caption d-none d-md-block">
-                       </div>
-                   </div>
-
-                   <div class="carousel-item">
-                      <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home11.jpg" alt="movie">
-                      <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-
-                <div class="carousel-item active">
-                    <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home12.jpg" alt="movie">
-                    <div class="carousel-caption d-none d-md-block">
-                  </div>
-              </div>
-
-              <div class="carousel-item">
-                  <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home9.jpg" alt="movie">
-                  <div class="carousel-caption d-none d-md-block">
-                </div>
-            </div>
-
-           <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="1" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="2" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="3" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="4" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="5" class=""></li>
-                    </ol>
-                    <a class="carousel-control-prev" href="index.html" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="index.html"s role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-
-                      <button type="button" class="btn btn-danger btn-sm" id="carousel-button" name="button">
-                        <span id="carousel-button-icon" class="fa fa-pause"></span>
-                      </button>
-
-            </div>
-       </div>
-            
-            <div class="hero-text-box">
-    
-                <h1>Goodbye Boring Lifestyle.<br>Hello Fun & Entertainment.</h1>
-                <a class="btn btn-full js--scroll-to-plans" href="about.php">I'm Bored</a>
-                <a class="btn btn-ghost js--scroll-to-start" href="services.php">Show me more</a>
-            </div>
-                  </header>
+          <div><img width="1400" height="450" src="resources/img/home1.jpg"> </div>    
+        </header>
         
-           <body>
-                  <div>
-    .
-                      
-                
-            </div>
-                 
-                 </body> 
+        <section class="section-features js--section-features" id="features">
+            
+            <div class="jumbotron">
+    <div class="container">
+      <h1>Get Entertained &mdash; not Hype</h1>
+        <p class="long-copy">
+                    Hello, we're Oshaprapra Movies Hub, an online video store,through which you can rent and purchase film and television content.<br>
+                    The content can be streamed via a high-speed network connection to a variety of networkable devices, including computers, HDTVs, Blu-ray players, gaming consoles, streaming media players, and portable devices like smartphones and tablets.
+                </p>
+    </div>
+  </div>
+          
+            </section>
+        
+            
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -181,7 +113,8 @@ left: 1075px">
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
-        
+    
+    
     <?php?>
     </body>  
     

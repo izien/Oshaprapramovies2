@@ -18,17 +18,8 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="resources/js/bootstrap.bundle.js"></script>
-        <script src="resources/js/bootstrap.bundle.min.js"></script>
-        <script src="resources/js/bootstrap.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
+        <title>Oshaprapra Movies Hub</title>
         
-        <script type="text/javascript">
-$(document).ready(function(){
-     $("#myCarousel").carousel();
-});
-</script>
         <script type="text/javascript">
 function display_c(){
 var refresh=1000; // Refresh rate in milli seconds
@@ -43,10 +34,10 @@ tt=display_c();
 }
 </script> 
             
-        <title>Oshaprapra Movies Hub</title>
+        
     </head>
     <body onload=display_ct();>
-        <?php?>
+         <?php?>
         <header>
             <time datetime="2016-09-06" class="icon" style="position: absolute; top: 75px;
 left: 1075px">
@@ -66,84 +57,70 @@ left: 1075px">
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
-            
-             <div id="mycarousel" class="carousel slide" data-ride="carousel">
-             <div class="carousel-inner" role="listbox">
-                       <div class="carousel-item">
-                           <img class="d-block img-fluid" width="1400" height="250" src="resources/img/home1.jpg" alt="movie1">
-                           <div class="carousel-caption d-none d-md-block">            
-                           </div>
-                       </div>
-
-                       <div class="carousel-item">
-                         <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home2.jpg" alt="movie">
-                         <div class="carousel-caption d-none d-md-block">
-                       </div>
+            <div><img width="1400" height="450" src="resources/img/home2.jpg"> </div>
+          </header>
+        
+       <section class="section-plans js--section-plans" id="plans">
+            <div id="services" class="row">
+                <h2>How it works</h2>
+                 <ul>Oshaprapra Movies Hub opens up unlimited access to movies, series and music, playable directly on your smartphone. This is how it works:</ul>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+                        <div>
+                            <h3>Stream</h3>
+                            <img src="resources/img/PV_Benefits_Devices.png"/>
+                            <p class="plan-price-meal"> 
+                            <ul>With a weekly or a monthly package, you can watch the content as often as you like, whenever and wherever you like,within the subscription period.<br>
+    With a weekly or a monthly package, you can watch the content as often as you like, whenever and wherever you like, within the subscription period.</ul></p>
                         </div>
-
-                       <div class="carousel-item">
-                         <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home10.jpg" alt="movie">
-                         <div class="carousel-caption d-none d-md-block">
-                       </div>
-                   </div>
-
-                   <div class="carousel-item">
-                      <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home11.jpg" alt="movie">
-                      <div class="carousel-caption d-none d-md-block">
+                        
+                        <div>
+                            <a href="contact.php" class="btn btn-full">Sign up now</a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="carousel-item active">
-                    <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home12.jpg" alt="movie">
-                    <div class="carousel-caption d-none d-md-block">
-                  </div>
-              </div>
-
-              <div class="carousel-item">
-                  <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home9.jpg" alt="movie">
-                  <div class="carousel-caption d-none d-md-block">
-                </div>
-            </div>
-
-           <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="1" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="2" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="3" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="4" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="5" class=""></li>
-                    </ol>
-                    <a class="carousel-control-prev" href="index.html" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="index.html"s role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-
-                      <button type="button" class="btn btn-danger btn-sm" id="carousel-button" name="button">
-                        <span id="carousel-button-icon" class="fa fa-pause"></span>
-                      </button>
-
-            </div>
-       </div>
             
-            <div class="hero-text-box">
-    
-                <h1>Goodbye Boring Lifestyle.<br>Hello Fun & Entertainment.</h1>
-                <a class="btn btn-full js--scroll-to-plans" href="about.php">I'm Bored</a>
-                <a class="btn btn-ghost js--scroll-to-start" href="services.php">Show me more</a>
-            </div>
-                  </header>
+            <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+                        <div>
+                            <h3>Downloadable Content</h3>
+                            
+                            <img src="resources/img/PV_Benefits_DataSaver.png"/>
+                            <p class="plan-price-meal"> <ul>With very affordable weekly and monthly package prices, what you see is what you pay. No data costs, no hidden charges!<br>
+Your selected shows are added to a personal download-list and automatically transferred to your smartphone within a day.<br>
+    Once downloaded, the content is stored on your smartphone’s memory during your subscription. The content can be watched whenever you want and as many times as you want.</ul></p>
+                        </div>
+                        
+                        <div>
+                            <a href="contact.php" class="btn btn-full">Sign up now</a>
+                        </div>
+                    </div>
+                </div>
         
-           <body>
-                  <div>
-    .
-                      
+        <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+                        <div>
+                            <h3>Rich Library</h3>
+                            <img src="resources/img/PV_Benefits_Download.jpg"/> 
+                            
+                            <div class="content" >
+                                <a class="btn btn-full">Click me</a>
+                            <p class="plan-price-meal"> <ul>Search a continually growing library of the best titles from across the globe, with new releases on a weekly basis.
+Your subscription will be renewed automatically and you can cancel at any time.<br>Receive recommendations based on your previous viewing habits, as well as suggested hit shows and new releases.</ul></p></div> 
+                                                </div>
+                        
+                        <div>
+                            <a href="contact.php" class="btn btn-full">Sign up now</a>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
-                 
-                 </body> 
-        <footer>
+        </section>
+
+               <footer>
             <div class="row">
                 <div class="col span-1-of-2">
                     <ul class="footer-nav">
@@ -182,7 +159,7 @@ left: 1075px">
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
         
-    <?php?>
+     <?php?>
     </body>  
     
 </html>

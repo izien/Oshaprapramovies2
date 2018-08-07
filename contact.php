@@ -18,17 +18,8 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="resources/js/bootstrap.bundle.js"></script>
-        <script src="resources/js/bootstrap.bundle.min.js"></script>
-        <script src="resources/js/bootstrap.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
+        <title>Oshaprapra Movies Hub</title>
         
-        <script type="text/javascript">
-$(document).ready(function(){
-     $("#myCarousel").carousel();
-});
-</script>
         <script type="text/javascript">
 function display_c(){
 var refresh=1000; // Refresh rate in milli seconds
@@ -43,10 +34,11 @@ tt=display_c();
 }
 </script> 
             
-        <title>Oshaprapra Movies Hub</title>
+        
     </head>
+    
     <body onload=display_ct();>
-        <?php?>
+         <?php?>
         <header>
             <time datetime="2016-09-06" class="icon" style="position: absolute; top: 75px;
 left: 1075px">
@@ -66,83 +58,40 @@ left: 1075px">
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
-            
-             <div id="mycarousel" class="carousel slide" data-ride="carousel">
-             <div class="carousel-inner" role="listbox">
-                       <div class="carousel-item">
-                           <img class="d-block img-fluid" width="1400" height="250" src="resources/img/home1.jpg" alt="movie1">
-                           <div class="carousel-caption d-none d-md-block">            
-                           </div>
-                       </div>
-
-                       <div class="carousel-item">
-                         <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home2.jpg" alt="movie">
-                         <div class="carousel-caption d-none d-md-block">
-                       </div>
-                        </div>
-
-                       <div class="carousel-item">
-                         <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home10.jpg" alt="movie">
-                         <div class="carousel-caption d-none d-md-block">
-                       </div>
-                   </div>
-
-                   <div class="carousel-item">
-                      <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home11.jpg" alt="movie">
-                      <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-
-                <div class="carousel-item active">
-                    <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home12.jpg" alt="movie">
-                    <div class="carousel-caption d-none d-md-block">
-                  </div>
-              </div>
-
-              <div class="carousel-item">
-                  <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home9.jpg" alt="movie">
-                  <div class="carousel-caption d-none d-md-block">
-                </div>
-            </div>
-
-           <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="1" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="2" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="3" class=""></li>
-                        <li data-target="#mycarousel" data-slide-to="4" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="5" class=""></li>
-                    </ol>
-                    <a class="carousel-control-prev" href="index.html" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="index.html"s role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-
-                      <button type="button" class="btn btn-danger btn-sm" id="carousel-button" name="button">
-                        <span id="carousel-button-icon" class="fa fa-pause"></span>
-                      </button>
-
-            </div>
-       </div>
-            
-            <div class="hero-text-box">
-    
-                <h1>Goodbye Boring Lifestyle.<br>Hello Fun & Entertainment.</h1>
-                <a class="btn btn-full js--scroll-to-plans" href="about.php">I'm Bored</a>
-                <a class="btn btn-ghost js--scroll-to-start" href="services.php">Show me more</a>
-            </div>
-                  </header>
+            <div><img width="1400" height="450" src="resources/img/home4.jpg"> </div> 
+        </header>
         
-           <body>
-                  <div>
-    .
-                      
+        
+        <section class="section-form">
+            <div id="contact" class="row">
+                <h2 class="animation">We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form name="contact" method="POST">
+<label>First Name:</label><input name="FirstName" type="text" autofocus maxlength="25" validation="required" required><br></br>
+<label>Last Name:</label><input name="LastName" type="text" maxlength="25" validation="required" required><br></br>
+    <label>Address</label> <input name="Address" type="text" validation="required" required><br></br>
+    <label>Street</label> <input name="Address" type="text" validation="required" required><br></br>
+    <label>City</label> <input name="Address" type="text" validation="required" required><br></br>
+       <label>State</label> <input name="Address" type="text" validation="required" required><br></br>
+    <label>Email:</label><input name="email" type="email" validation= "email" required id="email To"><br></br>
+    <label>Phone Number</label><input type="number" validation="required" required><br></br>
+
+<label>When Are You Signing Up?:</label><input name="contactDate" validation="required" type="date"><br></br>
+<label>Is this your first time here?</label><br>Yes <input type= "radio"><br></br> No <input type="radio" checked> <br>
+<label>If No, then rate our Services:</label><input id="Slider" name="slidervalue" type="range" min="1" max="10" value="10">
+<output name="rateourservice" value="10"onforminput="value=slidervalue.value">10</output><br/><br/>
+    <p> Thank You!</p>
+    <div class="submit-area">
+    <input value="Submit" type="submit"/>
+    <script>
+var thisForm = $(“contact”);
+thisForm.validation();
+</script>
                 
             </div>
-                 
-                 </body> 
+        </section>
+
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -181,8 +130,9 @@ left: 1075px">
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
-        
-    <?php?>
+    
+    
+     <?php?>
     </body>  
     
 </html>
