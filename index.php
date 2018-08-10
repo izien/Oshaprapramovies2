@@ -1,1 +1,204 @@
-<?php include_once("index.html");?>
+<?php
+
+// Start the session
+session_start();
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" Oshaprapra Movies Hub is an online video store,through which you can rent and purchase film and television content.">
+        
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap-reboot.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="resources/js/bootstrap.bundle.js"></script>
+        <script src="resources/js/bootstrap.bundle.min.js"></script>
+        <script src="resources/js/bootstrap.js"></script>
+        <script src="resources/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript">
+$(document).ready(function(){
+     $("#myCarousel").carousel();
+});
+</script>
+        <script type="text/javascript">
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var strcount
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+tt=display_c();
+}
+</script> 
+            
+        <title>Oshaprapra Movies Hub</title>
+    </head>
+    <body onload=display_ct();>
+        
+        <header>
+            <time datetime="2016-09-06" class="icon" style="position: absolute; top: 75px;
+left: 1075px">
+    <span id='ct' ></span>
+    </time>
+            <nav class="sticky">
+                <div class="row">
+                    <img src="resources/img/logo.jpg" alt="Oshprapra Movies Hub logo" class="logo">
+                    <img src="resources/img/logo.jpg" alt="Oshprapra Movies Hub logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="gallery.php">Our Gallery</a></li>
+                        <li><a href="services.php">How it works</a></li>
+                        <li><a href="contact.php">Sign up</a></li>
+                        <li><a href="login.php">Login</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            
+             <div id="mycarousel" class="carousel slide" data-ride="carousel">
+             <div class="carousel-inner" role="listbox">
+                       <div class="carousel-item">
+                           <img class="d-block img-fluid" width="1400" height="250" src="resources/img/home1.jpg" alt="movie1">
+                           <div class="carousel-caption d-none d-md-block">            
+                           </div>
+                       </div>
+
+                       <div class="carousel-item">
+                         <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home2.jpg" alt="movie">
+                         <div class="carousel-caption d-none d-md-block">
+                       </div>
+                        </div>
+
+                       <div class="carousel-item">
+                         <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home10.jpg" alt="movie">
+                         <div class="carousel-caption d-none d-md-block">
+                       </div>
+                   </div>
+
+                   <div class="carousel-item">
+                      <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home11.jpg" alt="movie">
+                      <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home12.jpg" alt="movie">
+                    <div class="carousel-caption d-none d-md-block">
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                  <img class="d-block img-fluid" width="1400" height="100" src="resources/img/home9.jpg" alt="movie">
+                  <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+           <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class=""></li>
+                        <li data-target="#mycarousel" data-slide-to="1" class=""></li>
+                        <li data-target="#mycarousel" data-slide-to="2" class=""></li>
+                        <li data-target="#mycarousel" data-slide-to="3" class=""></li>
+                        <li data-target="#mycarousel" data-slide-to="4" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="5" class=""></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="index.html" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="index.html"s role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                      <button type="button" class="btn btn-danger btn-sm" id="carousel-button" name="button">
+                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                      </button>
+
+            </div>
+       </div>
+            
+            <div class="hero-text-box">
+    
+                <h1>Goodbye Boring Lifestyle.<br>Hello Fun & Entertainment.</h1>
+                <a class="btn btn-full js--scroll-to-plans" href="about.php">I'm Bored</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="services.php">Show me more</a>
+            </div>
+                  </header>
+        
+           <body>
+                  <div>
+    .
+                    <?php if ( isset($_SESSION['name']) ):?>
+        <div class="container" align="center">
+            <div align="right"><a href="login.php">Log out</a></div>
+            <h1>Welcome, <?php echo $_SESSION['name']; ?>!</h1>
+        </div>
+        <?php else: ?>
+        <div class="container" align="center"><div align="right"><a href="login.php">Login</a></div>
+            <h1>My Movies</h1></div>
+        <?php endif; ?>  
+                
+            </div>
+                 
+                 </body> 
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="gallery.php">Our Gallery</a></li>
+                        <li><a href="services.php">Our Services</a></li>
+                        <li><a href="contact.php">Contact Us</a></li><label >Stay Connected</label><input name="email" type="email" validation= "email" required id="email To"><input value="Subscribe" type="submit"/>
+                    </ul>
+                    
+                </div>
+                
+                                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                </div>
+            
+            <div class="row">
+                <p>
+                    Copyright &copy; 2018 <a href="http://www.izienatane.com"> Izien Atane </a> &trade; &reg; All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+        
+    <?php?>
+    </body>  
+    
+</html>

@@ -48,11 +48,12 @@ left: 1075px">
                     <img src="resources/img/logo.jpg" alt="Oshprapra Movies Hub logo" class="logo">
                     <img src="resources/img/logo.jpg" alt="Oshprapra Movies Hub logo" class="logo-black">
                     <ul class="main-nav js--main-nav">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="gallery.php">Our Gallery</a></li>
                         <li><a href="services.php">How it works</a></li>
                         <li><a href="contact.php">Sign up</a></li>
+                        <li><a href="login.php">Login</a></li>
                     </ul>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
@@ -170,7 +171,7 @@ Showing on Saturdays, 6pm</ul></p>
             <div class="row">
                 <div class="col span-1-of-2">
                     <ul class="footer-nav">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="gallery.php">Our Gallery</a></li>
                         <li><a href="services.php">Our Services</a></li>
